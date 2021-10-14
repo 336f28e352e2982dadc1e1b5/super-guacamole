@@ -1,7 +1,7 @@
 {
   "name": "Zigbee2mqtt Proxy",
   "version": "0.1a",
-  "panel_icon": "mdi:docker",
+  "panel_icon": "mdi:bee",
   "slug": "zigbee2mqtt-proxy",
   "description": "Proxy addon for Zigbee2mqtt",
   "url": "https://github.com/336f28e352e2982dadc1e1b5/super-guacamole",
