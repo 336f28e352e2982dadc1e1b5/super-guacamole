@@ -1,0 +1,37 @@
+{
+  "name": "Portainer Proxy",
+  "version": "0.1a",
+  "panel_icon": "mdi:docker`",
+  "slug": "portainer-proxy",
+  "description": "Proxy addon for Portainer",
+  "url": "https://github.com/336f28e352e2982dadc1e1b5/super-guacamole",
+  "startup": "application",
+  "boot": "auto",
+  "webui": "http://[HOST]:[PORT:9000]/",
+  "watchdog": "http://[HOST]:[PORT:9000]/",
+  "ingress": true,
+  "ingress_port": 9000,
+  "ingress_entry": "/",
+  "panel_admin": false,
+  "ports": {
+    "9000/tcp": 9000
+  },
+  "ports_description": {
+    "9000/tcp": "Web interface (Not required for Hass.io Ingress)"
+  },
+  "host_network": false,
+  "devices": [],
+  "usb": false,
+  "tmpfs": false,
+  "full_access": false,
+  "environment": {},
+  "options": {
+    "server": "homeassistant:9000"
+  },
+  "schema": {
+    "server": "match(^.+:\\d+$)"
+  },
+  "services": [],
+  "arch": ["aarch64", "amd64", "armhf", "armv7", "i386"],
+  "map": []
+}
