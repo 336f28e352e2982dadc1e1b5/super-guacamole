@@ -37,7 +37,7 @@ LABEL \
     org.opencontainers.image.authors="Super Guacamole <2pac2guac@protonmail.com>" \
     org.opencontainers.image.licenses="CopyLeft" \
     org.opencontainers.image.source="https://github.com/${BUILD_REPOSITORY}" \
-    org.opencontainers.image.documentation="https://github.com/${BUILD_REPOSITORY}/blob/main/frigate_proxy/README.md" \
+    org.opencontainers.image.documentation="https://github.com/${BUILD_REPOSITORY}/portainer_proxy/README.md" \
     org.opencontainers.image.created=${BUILD_DATE} \
     org.opencontainers.image.revision=${BUILD_REF} \
     org.opencontainers.image.version=${BUILD_VERSION}
