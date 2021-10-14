@@ -10,11 +10,8 @@ The `server` option sets the address of the Portainer server.
 
 This must be in the format `host:port`. The following are valid examples:
 
-- `portainer.local:5000`
-- `192.168.0.101:5000`
+- `portainer.local:9000`
+- `192.168.0.101:9000`
 
 ## Required Dependencies
 - Network access to running Portainer server
-
-## Support
-Please [open an issue](https://github.com/blakeblackshear/portainer/issues/new/choose) if you need support.
